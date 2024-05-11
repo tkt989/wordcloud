@@ -1,7 +1,7 @@
 from wordcloud import WordCloud
 import MeCab
 
-stopwords = ["の"]
+stopwords = []
 
 f = open("messages.txt", "r")
 text = f.read()
